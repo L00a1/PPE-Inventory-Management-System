@@ -11,6 +11,7 @@ A secure inventory tracking system for medical supplies during COVID-19, built w
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [File Structure](#-file-structure)
+- [Screenshots](#-screenshots)
 - [License](#-license)
 
 ## ✨ Features
@@ -27,19 +28,16 @@ A secure inventory tracking system for medical supplies during COVID-19, built w
 - **Core**: Python 3.x (No external dependencies)
 - **Data Storage**: 
   ```plaintext
-  ppe.txt - Current inventory
-  supplier.txt - Supplier records
-  distribution.txt - Audit logs
-Key Modules:
-
-datetime for transaction timestamps
-
-File I/O operations
+ppe.txt - Current inventory
+supplier.txt - Supplier records
+distribution.txt - Audit logs
 
 🚀 Installation
 git clone https://github.com/yourusername/ppe-inventory-system.git
 cd ppe-inventory-system
 python main.py
+
+
 🖥️ Usage
 1. Update Inventory
 2. Search Records
@@ -50,11 +48,14 @@ Choice: 1
 > Enter item code: HC
 > Enter quantity: 50
 > Transaction recorded
+
 📂 File Structure
 ├── main.py            # Core application
 ├── ppe.txt            # Inventory database
 ├── supplier.txt       # Supplier records
 ├── distribution.txt   # Transaction logs
 └── README.md
+
 📜 License
 MIT © [Loai Ramadan Saadia]
+
