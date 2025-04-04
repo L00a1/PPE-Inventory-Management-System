@@ -1,55 +1,33 @@
-PPE Inventory Management System
-A Python-based solution for tracking medical supplies during COVID-19
+# PPE Inventory Management System
 
-📌 Project Overview
-Developed to help healthcare organizations manage Personal Protective Equipment (PPE) inventory during the pandemic, this system tracks supplies across multiple hospitals and suppliers with secure access controls and automated reporting.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-✨ Key Features
-Inventory Management
-Add/remove PPE items (6 supported types)
-Track stock levels across 3 hospitals
-Record distributions with timestamps
+A secure inventory tracking system for medical supplies during COVID-19, built with Python.
 
-Data Security
-Role-based access control
-Input validation for all transactions
-Audit logs for accountability
+## 📋 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [File Structure](#-file-structure)
+- [Screenshots](#-screenshots)
+- [License](#-license)
 
-Reporting
-Low stock alerts (<25 boxes)
-Sort inventory in ascending order
-Generate supplier/hospital-specific reports
+## ✨ Features
+| Category        | Functionality                          |
+|-----------------|----------------------------------------|
+| **Inventory**   | Add/remove PPE items                   |
+|                 | Track stock across 3 hospitals         |
+| **Security**    | Role-based access control              |
+|                 | Comprehensive input validation         |
+| **Reporting**   | Low stock alerts (<25 boxes)           |
+|                 | Historical transaction logs            |
 
-🛠️ Technical Implementation
-def update_inventory():
-    # Handles adding/removing items
-    # with input validation
-    ...
-
-def generate_report():
-    # Creates inventory summaries
-    # with sorting/filtering
-    ...
-Data Storage:
-Text-file based system (CSV-like structure)
-Separate files for:
-Current inventory (ppe.txt)
-Supplier records (supplier.txt)
-Transaction logs (distribution.txt)
-
-🚀 Getting Started
-Clone the repository
-Run main.py
-Use menu to:
-Update inventory
-Search records
-Generate reports
-
-📊 Sample Output
-(1) Update Inventory
-(2) Search
-(3) Print Report
-
-Choice: 1
--> Added 50 face masks (SUP11)
--> Logged to distribution.txt
+## 💻 Tech Stack
+- **Core**: Python 3.x (No external dependencies)
+- **Data Storage**: 
+  ```plaintext
+  ppe.txt - Current inventory
+  supplier.txt - Supplier records
+  distribution.txt - Audit logs
