@@ -58,22 +58,3 @@ Choice: 1
 └── README.md
 📜 License
 MIT © [Loai Ramadan Saadia]
-
-**Key GitHub Display Features:**
-1. **Shields.io badges** for visual metadata
-2. **Markdown tables** for organized feature listing
-3. **Code blocks** with syntax highlighting
-4. **Directory tree** visualization
-5. **Image grid** for screenshots (replace with actual images)
-6. **Consistent emoji headers** for scanability
-
-**How to Use:**
-1. Copy this template
-2. Replace placeholder text with your details
-3. Add actual screenshots in the `/assets` folder
-4. Update the file structure to match your project
-
-Would you like me to:
-- Add a "Contributing" section?
-- Include a requirements.txt example?
-- Suggest specific screenshot dimensions?
