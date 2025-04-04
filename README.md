@@ -11,7 +11,6 @@ A secure inventory tracking system for medical supplies during COVID-19, built w
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [File Structure](#-file-structure)
-- [Screenshots](#-screenshots)
 - [License](#-license)
 
 ## ✨ Features
